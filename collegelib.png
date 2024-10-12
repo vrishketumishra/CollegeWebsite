@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>TCET - Thakur College Of Engineering and Technology</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href=layout/styles/layout.css media=all rel=stylesheet>
+  <link rel="stylesheet" href="layout/styles/enlarge.css" type="text/css" media="screen" />
+
+  <!-- for top button -->
+
+  <link rel="stylesheet" href="layout/styles/topb.css" type="text/css" media="screen" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="layout/scripts/topb.js"></script>
+  <script type="text/javascript" language="javascript" src="layout/scripts/jquery.dropdown.js"></script>
+</head>
+
+<body id="top">
+  <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+
+  <!-- ################################################################################################ -->
+  <div id="main_menu">
+    <script type="text/javascript">MECHMenu();</script>
+  </div>
+
+  <!-- ################################################################################################ -->
+  <div class="wrapper row3">
+    <div class="rounded">
+      <main class="container clear">
+        <!-- main body -->
+        <!-- ################################################################################################ -->
+        <div class="sidebar one_quarter first">
+          <!-- ################################################################################################ -->
+          <h6>Mechanical Engineering</h6>
+          <nav class="sdb_holder">
+            <ul class="sub-menu">
+
+              <li><a href="MECH Hod's Message.html">HOD's Message</a></li>
+              <li><a href="MECH Facilities.html">Resources</a></li>
+              <li><a href="MECH/advisory committee  44IN X 42IN.pdf" target="_blank">Programs committees</a></li>
+              <!--<li><a href="MECH/mech sem review ppt.pptx" target="_blank">Department PPT (NBA)</a></li>-->
+              <li><a href="ORGANOGRAM.pdf">Department Organogram</a></li>
+              <li><a href="MECH Achivements.html">Highlights</a></li>
+              <li><a href="#">Feedback</a>
+                <ul>
+                  <li><a href="MECH Testimonial.html">Testimonial</a></li>
+                  <li><a href="MECH feedback inst.html">About Institute</a></li>
+                  <li><a href="MECH feedback faculty.html">About Faculty</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- ################################################################################################ -->
+        </div>
+
+        <div id="content" class="three_quarter">
+          <div class=wrapper> <a name="top"></a>
+            <h3 id="page_title">Mechanical Engineering (MECH)- Facilities</h3>
+            <div id="bar_cleaner"></div>
+            <p align="justify"> Thakur College of Engineering & Technology, Mumbai (TCET) is one of the renowned
+              institutes of technology in the country. It has been set up with the objective of making facility
+              available for higher education, research and training in various fields of Science and Technology. </p>
+            <br />
+            <style>
+              .container1 {
+                position: relative;
+                /* width: 50%;*/
+              }
+
+              .image {
+                display: block;
+                width: 100%;
+                height: auto;
+              }
+
+              .image {
+                border-radius: 05px;
+                border-color: #D492E9;
+                border-style: ridge;
+              }
+
+
+
+              .overlay {
+                position: absolute;
+                bottom: 100%;
+                left: 0;
+                right: 0;
+                background-color: #CD8FDB;
+                overflow: hidden;
+                width: 100%;
+                height: 0;
+                transition: .5s ease;
+              }
+
+              .container1:hover .overlay {
+                bottom: 0;
+                height: 100%;
+                border-radius: 10px;
+              }
+
+              .text {
+                white-space: nowrap;
+                color: white;
+                font-size: 15px;
+                position: absolute;
+                overflow: hidden;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+
+              }
+
+              #textfrmt {
+                text-align: center;
+                font-size: 14px;
+                background-color: #AC5DC5;
+                color: #FFFFFF;
+                border-radius: 05PX;
+              }
+            </style>
+            <div class="group btmspace-10">
+              <div class="one_half first">
+                <h1 id="textfrmt">Material Technology Lab</h1>
+                <div class="container1"> <img src="image/Facility2/Material Technology.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li>Area :102 Sq. m</li>
+                        <li> Can accommodate 20 students</li>
+                        <li>Fatigue Testing Machine-1 </li>
+                        <li>Trinocular and Binocular Microscope-2 Each </li>
+                        <li>Jominy End Quench Test-1 </li>
+                        <li>Metallurgical Samples-1 </li>
+                        <li>Cutter Machine-1</li>
+                        <li>Furnace-1 </li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="one_half">
+                <h1 id="textfrmt">I.C Engine Lab</h1>
+                <div class="container1"> <img src="image/Facility2/IC ENGINE mLAB.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li>Area :179 Sq. m</li>
+                        <li> Can accommodate 20 students</li>
+                        <li>Multi cylinder petrol engine test rig-1 </li>
+                        <li>Single cylinder test rig-1</li>
+                        <li>Fire extinguishers</li>
+                        <li>First Aid Box</li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="one_half first">
+                <h1 id="textfrmt"> Theory Of Machine</h1>
+                <div class="container1"> <img src="image/Facility2/TOM2.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li>Area :74.26 Sq. m</li>
+                        <li> Can accommodate 20 students</li>
+                        <li>Various models of inversion of four bar chain</li>
+                        <li>Oscillating cylinder</li>
+                        <li>kinematic chain</li>
+                        <li>Scotch yoke</li>
+                        <li>First Aid Box</li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="one_half">
+                <h1 id="textfrmt">Heat Transfer Lab</h1>
+                <div class="container1"> <img src="image/Facility2/Heat transmit.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li>Area :74.25 Sq. m</li>
+                        <li> Can accommodate 20 students</li>
+                        <li> Thermal conductivity of metal bar
+                        <li>Determination of contact</li>
+                        <li>resistance apparatus</li>
+                        <li>Radial heat conduction</li>
+                        <li> Heat pipe apparatus
+                        <li>Fin efficiency and effictiveness</li>
+                        <li>Unsteady state heat transfer apparatus</li>
+                        <li>Natural and forced convection apparatus</li>
+                        <li>Lagged pipe apparatus</li>
+                        <li>Shell and tube heat exchanger</li>
+                        <li>Plate type heat exchanger</li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="one_half first">
+                <h1 id="textfrmt"> Measurement and Control Lab</h1>
+                <div class="container1"> <img src="image/Facility2/MMC.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li>Area :74.25 Sq. m</li>
+                        <li> Can accommodate 20 students</li>
+                        <li>Bourdon tube pressure gauge-1</li>
+                        <li>Dead weight pressure gauge-1</li>
+                        <li>LVDT apparatus-1</li>
+                        <li>Strain gauge-1</li>
+                        <li>Calibration of tachometer-1</li>
+                        <li>Vibration Kit-1</li>
+                        <li>NI lab view s/w package </li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="one_half">
+                <h1 id="textfrmt">Strength of Material Lab</h1>
+                <div class="container1"> <img src="image/Facility2/MechStrngthLab2.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li>Area :100 Sq. m</li>
+                        <li> Can accommodate 26 students</li>
+                        <li> Well equipped with various machines like <br />
+                          Analog cum computerized universal <br />
+                          testing machine</li>
+                        <li>Brinell & Rockwell hardness tester;<br />
+                          Torsion testing machine</li>
+                        <li>Izod & Charpy impact testing machine</li>
+                        <li>Fire extinguishers</li>
+                        <li>First Aid Box</li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="one_half first">
+                <h1 id="textfrmt">Machine Shop Lab</h1>
+                <div class="container1"> <img src="image/Facility2/MechMachineShop2.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li>Area :250 Sq. m</li>
+                        <li> Can accommodate 26 students</li>
+                        <li> Well equipped with Lathe Machine, Shaper, <br />
+                          Milling Machine, Radical Drilling,<br />
+                          Bench Grinder, Pedestal Grinder,<br />
+                          Spot Welding Machine, <br />
+                          Hydraulic Power Hacksaw </li>
+                        <li>Fire extinguishers</li>
+                        <li>First Aid Box</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="one_half">
+                <h1 id="textfrmt">CAD Lab</h1>
+                <div class="container1"> <img src="image/Facility2/cad lab.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li>Area :88.32 Sq. m</li>
+                        <li> Can accommodate 36 students</li>
+                        <li> Workstation :HP (35 + 1 Server) </li>
+                        <li>Configuration: (HP Z2220 : <br />
+                          Intel Xeon E3-1225v23.2 GHz 8GB,<br />
+                          DDR3-1600ECc , 1TB HDD,<br />
+                          Monitor HP LED 23" ZR 2330W)</li>
+                        <li>Plotter : Printer HP Designjet T120</li>
+                        <li>Software : </li>
+                        1.Solidworks 2015&nbsp;&nbsp;&nbsp;&nbsp;5.DELMIA<br />
+                        2.ANSYS 15&nbsp;&nbsp;&nbsp;&nbsp;6.SIMULIA V6<br />
+                        3.CATIA PLM&nbsp;&nbsp;&nbsp;&nbsp;7.ENOVIA V6<br />
+                        4.CATIA V6
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="one_half first">
+                <h1 id="textfrmt">CNC Lab</h1>
+                <div class="container1"> <img src="image/Facility2/cnclab.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li>Area : 18.95Sq m</li>
+                        <li>Can accommodate 20 students</li>
+                        <li> CNC Lathe Model :Jobber LM CNC complete<br />
+                          with</li>
+                        <ul>
+                          <li>LM Guideways in X-Axis and Z-Axis</li>
+                          <li>Tail stock with external rotating centre </li>
+                          <li>Fanuc Control system</li>
+                          <li>8 Station Bi-directional tool turret</li>
+                        </ul>
+                        <li>Fire extinguishers</li>
+                        <li>Plotter : Printer HP Designjet T120</li>
+                        <li>First Aid Box</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="one_half">
+                <h1 id="textfrmt">RAC Lab</h1>
+                <div class="container1"> <img src="image/Facility2/RAC.jpg" style="height:262px;" alt="Avatar"
+                    class="image">
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li>Area : 74.25 Sq. m</li>
+                        <li>Can accommodate 20 students</li>
+                        <li>List of equipment's:
+                        </li>
+
+                        <ul>
+                          <li>Domestic refrigeration Test Ring</li>
+                          <li> Refrigeration Test Ring</li>
+                          <li> Air Conditioning Test Ring</li>
+
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+        <!-- last content -->
+
+        <div align="right">
+          <SCRIPT LANGUAGE="JavaScript">
+            update = new Date(document.lastModified)
+            theMonth = update.getMonth() + 1
+            theDate = update.getDate()
+            theYear = update.getFullYear()
+            document.writeln("<I>Last Updated On:" + theDate + "/" + theMonth + "/" + theYear + "</I>")
+          </SCRIPT>
+        </div>
+
+
+        <!-- last content -->
+
+    </div>
+  </div>
+  </div>
+  <div id="footer_menu">
+    <script type="text/javascript">footerDisp();</script>
+  </div>
+
+  <!-- JAVASCRIPTS -->
+  <script src="../layout/scripts/jquery.min.js"></script>
+  <script src="../layout/scripts/jquery.fitvids.min.js"></script>
+  <script src="../layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+
+</html>
